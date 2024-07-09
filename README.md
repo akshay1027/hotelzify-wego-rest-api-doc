@@ -2,7 +2,7 @@
 
 ### 1. Static API:
 - Endpoint: <b> POST </b> `https://dev2-api.hotelzify.com/api/hotel/meta-search/v1/wego/on-demand/static-data`
-- Request body:
+- Request curl:
     ```
     curl --location 'https://dev2-api.hotelzify.com/hotel/meta-search/v1/wego/on-demand/static-data' \
     --header 'Content-Type: application/json' \
@@ -31,7 +31,7 @@
 
 ### 2. Pricing and Inventory (ARI) API:
 - Endpoint: <b> POST </b> `https://dev2-api.hotelzify.com/api/hotel/meta-search/v1/wego/on-demand/static-data`
-- Request body:
+- Request curl:
     ```
     curl --location 'https://dev2-api.hotelzify.com/hotel/meta-search/v1/wego/on-demand/search' \
     --header 'Content-Type: application/json' \
